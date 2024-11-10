@@ -1,0 +1,50 @@
+body{
+background: white;
+/* font-family: serif; */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+justify-content: center;
+align-items: center;
+height: 100vh;
+display: flex;
+
+}
+h1{
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 2px 2px rgb(218, 179, 166);
+margin: 30px;
+}
+
+label{
+    color:hwb(270 42% 51%) ;
+}
+form{
+
+width: 300px;
+border: 1px solid black;
+padding: 20px;
+ 
+ border-radius: 15px;
+ text-align: left;
+} 
+
+input{
+
+margin: 10px 0;
+width: 100%;
+
+
+}
+button{
+padding: 10px;
+border: none;
+background-color: aqua;
+border-radius: 12px;
+width: 100%;
+
+}
+video{
+
+
+    width: 500px;
+}
