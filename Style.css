@@ -1,0 +1,54 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+    background-color: #044E83;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 80px;
+    position: relative;
+    color: white;
+}
+
+/* Logo styling */
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+/* Title styling */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 175px;
+    color: white;
+}
+
+/* Navigation menu styling */
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.nav-menu div {
+    cursor: pointer;
+    font-size: 18px;
+}
+h3:hover{
+color: black;
+font-style: italic;
+font-size: 2em;
+
+}
+nav:hover{
+    color: aqua;
+}
